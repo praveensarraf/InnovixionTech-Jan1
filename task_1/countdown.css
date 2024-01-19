@@ -1,0 +1,21 @@
+body{
+    background-image: linear-gradient(orange, white, green);
+    font-family: Verdana;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.countdown-container {
+    text-align: center;
+}
+
+h1{
+    color: blue;
+}
+
+#countdown {
+    font-size: 3em;
+}
