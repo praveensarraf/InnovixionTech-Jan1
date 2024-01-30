@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Quiz Application</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <!-- Info Box -->
+        <div class="info_box">
+            <div class="info-title"><span>Rules of the Quiz</span></div>
+            <div class="info-list">
+                <div class="info">1. User will get only <span>10 seconds</span> for each question.</div>
+                <div class="info">2. Once user will select the answer, It can't be modified.</div>
+                <div class="info">3. Select only one option of the question</div>
+                <div class="info">4. If user will not select any answer within 10 seconds, then correct answer will automatically appear on the screen.</div>
+            </div>
+
+            <div class="info-title"><span>Objective of the Quiz</span></div>
+            <div class="info-list">
+                <div class="info">To increase the General Kknowledge.</div>
+            </div>
+
+            <div class="info-title"><span>Terms and Conditions</span></div>
+            <div class="info-list">
+                <div class="info">After click on <span style="color: blue;">Continue</span> you will be agree to our <span>Terms and Conditions</span>.</div>
+            </div>
+
+            <div class="buttons">
+                <button class="restart">Continue</button>
+            </div>
+            
+        </div>
+
+        <!-- Quiz-Box -->
+        <div class="quiz_box">
+            <header>
+                <div class="title">Quiz Application</div>
+                <div class="timer">
+                    <div class="time_left_txt">Time Left</div>
+                    <div class="timer_sec">10</div>
+                </div>
+
+                <div class="time_line"></div>
+            </header>
+
+            <section>
+                <div class="que_text">
+                    <!-- Question will be inserted here using JavaScript -->
+                </div>
+
+                <div class="option_list">
+                    <!-- Options of the Question will be inserted here using JavaScript -->
+                </div>
+            </section>
+
+            <footer>
+                <div class="total_que">
+                    <!-- Question count number will be inserted here using JavaScript -->
+                </div>
+
+                <button class="next_btn">Next</button>
+            </footer>
+        </div>
+
+        <!-- Result Box -->
+        <div class="result_box">
+            <div class="complete_text">You've completed the Quiz!</div>
+            <div class="score_text">
+                <!-- Score result will be inserted here using JavaScript -->
+            </div>
+
+            <div class="buttons">
+                <button class="restart">Retake</button>
+                <button class="quit">Exit</button>
+            </div>
+        </div>
+
+        <!-- JavaScript Files -->
+
+        <!-- All the JavaScript codes of Quiz app will be stored inside this JS file -->
+        <script src="script.js"></script>
+
+        <!-- All the questions and their options of Quiz app will be stored inside this JS file -->
+        <script src="questions.js"></script>
+        
+    </body>
+</html>
