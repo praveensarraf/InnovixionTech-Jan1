@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function () {
             
-    const targetDate = new Date('August 15, 2024 00:00:00').getTime();
+    const targetDate = new Date('August 15, 2025 00:00:00').getTime();
 
     const countdownInterval = setInterval(function () {
         
